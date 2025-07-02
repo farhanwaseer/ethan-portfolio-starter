@@ -1,13 +1,26 @@
-import '../styles/globals.css';
+import "../styles/globals.css";
 
-// components 
-import Layout from '../components/Layout';
+// components
+import Layout from "../components/Layout";
+import Transition from "../components/Transition";
+// router
+import { useRouter } from "next/router";
 
+// farmer motion
+import { AnimatePresence, motion } from "framer-motion";
 
 function MyApp({ Component, pageProps }) {
-  return <Layout>
-    <Component {...pageProps} />
-  </Layout>
+  const router = useRouter();
+  return (
+    <Layout>
+      <AnimatePresence>
+        <motion.div key={router.route} className='h-full'>
+          <Transition/>
+          <Component {...pageProps} />
+        </motion.div>
+      </AnimatePresence>
+    </Layout>
+  );
 }
 
 export default MyApp;
