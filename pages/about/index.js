@@ -399,7 +399,7 @@ const About = () => {
             <div className="flex flex-1 xl:gap-x-6 text-sm xl:text-base">
               {/* Experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
-                <div className="text-xl xl:text-2xl font-bold text-accent mb-1">
+                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={2} duration={5} /> +
                 </div>
                 <div className="text-[11px] uppercase tracking-wide leading-snug max-w-[100px] text-white/70">
@@ -409,7 +409,7 @@ const About = () => {
 
               {/* Clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
-                <div className="text-xl xl:text-2xl font-bold text-accent mb-1">
+                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={50} duration={5} /> +
                 </div>
                 <div className="text-[11px] uppercase tracking-wide leading-snug max-w-[100px] text-white/70">
@@ -419,7 +419,7 @@ const About = () => {
 
               {/* Projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
-                <div className="text-xl xl:text-2xl font-bold text-accent mb-1">
+                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={70} duration={5} /> +
                 </div>
                 <div className="text-[11px] uppercase tracking-wide leading-snug max-w-[100px] text-white/70">
@@ -429,7 +429,7 @@ const About = () => {
 
               {/* Awards */}
               <div className="relative flex-1">
-                <div className="text-xl xl:text-2xl font-bold text-accent mb-1">
+                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={8} duration={5} /> +
                 </div>
                 <div className="text-[11px] uppercase tracking-wide leading-snug max-w-[100px] text-white/70">
