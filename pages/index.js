@@ -1,3 +1,5 @@
+
+
 // next image
 import Image from "next/image";
 
@@ -27,7 +29,8 @@ const Home = () => {
             className="h1"
           >
             Farhan Ahmed <br />
-            <span className="text-accent">Full Stack Developer</span>
+            <span>Full Stack </span>
+            <span className="text-accent">Developer</span>
           </motion.h1>
           {/* subtitles */}
           <motion.p
@@ -72,8 +75,8 @@ const Home = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          transition={{duration: 1, ease: 'easeInOut'}}
-          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-12 lg:right-[8%]"
+          transition={{ duration: 1, ease: "easeInOut" }}
+          className="w-full h-full max-w-[550px] max-h-[550px] absolute -bottom-32 lg:bottom-6 lg:right-[7%]"
         >
           <Avatar />
         </motion.div>
